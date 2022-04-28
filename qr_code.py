@@ -7,7 +7,7 @@ qr = qrcode.QRCODE(
     border=5
 )
 
-data = 'ouritword.github.io/group21/'
+data = 'abcxyz.com'
 qr.add_data(data)
 qr.make(fit=True)
 img = qr.make_image(fill='black', back_color ='white')
