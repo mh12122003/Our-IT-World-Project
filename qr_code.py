@@ -1,7 +1,7 @@
 # ref: https://www.youtube.com/watch?v=5ud8Bfbo9vk
 import qrcode
 
-qr = qrcode.QRCOĐE(
+qr = qrcode.QRCODE(
     version=1,
     box_size=15,
     border=5
