@@ -1,0 +1,157 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Aleo', sans-serif;
+}
+
+
+nav {
+    background: white;
+    height: 50px;
+    width: 100%;
+}
+nav img {
+    width: 40px;
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+nav ul {
+    float: right;
+    margin-right: 350px;
+}
+
+nav ul li {
+    display: inline-block;
+    line-height: 50px;
+    margin: 0 20px;
+
+}
+nav ul li a {
+    color: black;
+    font-size: 18px;
+    padding: 7px 14px;
+    border-radius: 3px;
+}
+a.active, a:hover{
+    background: #4e5b82;
+    transition: 0.5s;
+    color: white;
+}
+.checkbtn {
+    font-size: 20px;
+    color: black;
+    float: right;
+    line-height: 40px;
+    margin-top: 10px;
+    margin-right: 15px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+
+
+.search-box {
+    position: absolute;
+    top: 3.5%;
+    left: 97%;
+    transform: translate(-100%,-50%);
+    background: black;
+    height: 40px;
+    border-radius: 20px;
+}
+
+.search-box:hover > .search-txt {
+    width: 240px;
+    padding: 0 12px;
+}
+
+.search-box:hover > .search-btn {
+    background: white;
+}
+
+.search-btn {
+    color: black;
+    float: right;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+}
+
+.search-txt {
+    border: none;
+    background: none;
+    outline: none;
+    float: left;
+    padding: 0;
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+    transition: 0.5s;
+    line-height: 40px;
+    width: 0px;
+}
+
+@media (max-width: 1192px) {
+    .checkbtn {
+        display: block;
+    }
+    nav img {
+        width: 60px;
+    }
+
+    ul {
+        position: fixed;
+        width: 100%;
+        height: 100vh;
+        margin-top: 25px;
+        background: white;
+        top: 50px;
+        left: -100%;
+        text-align: left;
+        transition: all 0.5s
+    }
+
+    nav ul li {
+        display: block;
+        margin: 50px 0;
+        line-height: 20px;
+    }
+
+        nav ul li a {
+            margin-left: 20px;
+            font-size: 28px;
+        }
+
+    a:hover, a.active {
+        background: none;
+        color: black;
+    }
+
+    #check:checked ~ ul {
+        left: 0;
+    }
+    .search-box {
+        position: absolute;
+        top: 3.5%;
+        left: 90%;
+        transform: translate(-100%,-50%);
+        background: black;
+        height: 40px;
+        border-radius: 20px;
+    }
+
+
+}
