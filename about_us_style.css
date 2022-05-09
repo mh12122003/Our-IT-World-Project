@@ -1,6 +1,6 @@
 *
 {
-    font-style: 'Montserrat';
+    font: 'Montserrat';
 }
 
 .logo
@@ -14,7 +14,7 @@
     text-align: center;
     margin-top: 0;
     padding: 30px 0;
-    background-color: lightblue;
+    background: linear-gradient(rgb(28, 113, 142),lightblue );
 
 }
 
