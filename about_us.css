@@ -1,0 +1,67 @@
+h1 {
+    font-family:"aleo" ;
+    font-weight:bolder;
+    font-size: 35px;
+    padding: 25px;
+    text-align: center;
+    text-decoration: underline;
+    background-color:lightblue; 
+}
+.Minh-Hoang {
+    border-radius: 70px;
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+} 
+
+.Hong-Ngoc {
+    border-radius: 70px;
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+.My-Linh {
+    border-radius: 70px;
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+.Ngoc-Khanh {
+    border-radius: 70px;
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+.Anh-Minh {
+    border-radius: 70px;
+    float: left;
+    width: 250px;
+    margin-right: 20px;
+}
+
+body {
+    font-family:"aleo";
+    line-height: normal
+}
+
+p { 
+    text-align: left;
+    font-weight:bolder;
+    font-size: larger;
+}
+
+.p1 {
+    text-align: justify;
+    font-weight: normal;
+    text-indent: 1cm;
+}
+
+.p2 {
+    text-indent: 1cm;
+    text-align: justify;
+    font-weight: normal;
+    
+}
+.p3 {
+    text-indent: 1cm;
+}
