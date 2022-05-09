@@ -1,3 +1,63 @@
-img{
-    width = '200px'
+*
+{
+    font-style: 'Montserrat';
+}
+
+.logo
+{
+   position: relative;
+   width: 10%;    
+}
+
+.intro
+{
+    text-align: center;
+    margin-top: 0;
+    padding: 30px 0;
+    background-color: lightblue;
+
+}
+
+h1{
+    text-align: center;
+}
+
+
+
+.member-photo-list{
+
+    list-style-type: None;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.member-photo-list a{
+    padding: 15px;
+    display: inline-block;
+}
+
+.member-photo-list img{
+    border-radius: 25%;
+}
+
+.member-list{
+    list-style-type: None;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.member-list a{
+    padding: 15px;
+    display: inline-block;
+}
+
+.job-des{
+    list-style-type: None;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+}
+.job-des a{
+    padding: 15px;
+    display: inline-block;
 }
