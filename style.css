@@ -6,7 +6,8 @@
     box-sizing: border-box;
 }
 body {
-    font-family: 'Aleo', sans-serif;
+    font-family: 'Aleo', serif;
+    
 }
 
 
@@ -39,7 +40,7 @@ nav ul li a {
     border-radius: 3px;
 }
 a.active, a:hover{
-    background: #4e5b82;
+    background: black;
     transition: 0.5s;
     color: white;
 }
@@ -155,3 +156,240 @@ a.active, a:hover{
 
 
 }
+
+.homepage {
+    margin: auto;
+    padding-top: 470px;
+    text-align: right;
+    background-image: url(images/test.jpeg);
+    height: 80vh;
+}
+.homepage h1 {
+    font-size: 36px;
+    font-weight: 600;
+    margin-right: 25px;
+    color: white;
+    
+}
+
+.homepage p {
+    font-size: 28px;
+    font-weight: 400;
+    margin-right: 25px;
+    color: white;
+}
+
+
+@media (max-width: 1192px){
+.homepage{
+    margin-top: 25px;
+    height: 50vh;
+    padding-top: 550px;
+    background-image: url(images/test2.jpeg);
+    background-size: cover;
+}
+.homepage h1 {
+    font-size: 32px;
+    text-align: left;
+    margin-left: 20px;
+    margin-top: 20px;
+    color: black;
+}
+.homepage p { 
+    font-size: 24px;
+    text-align: left;
+    margin-left: 20px;
+    color: black;
+  
+}
+}
+
+.page1 {
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+}
+.page1 h1 {
+    font-size: 30px;
+    font-weight: 600;
+}
+.page1 p {
+    color: black;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 24px;
+    padding: 20px;
+
+}
+
+@media (max-width: 1192px) {
+    .page1 {
+        padding-top: 250px;
+    }
+}
+
+    .row1 {
+     
+        margin-top: 5%;
+        display: flex;
+        justify-content: space-between;
+       
+    }
+
+    .product-col1 {
+        background-color: whitesmoke;
+        flex-basis: 20%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+        padding: 50px;
+        cursor: pointer;
+        display: inline-flex;
+        transition: 0.5s;
+    }
+
+        .product-col1:hover {
+            box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+        }
+
+        .product-col1 img {
+            height: 100px;
+            margin-left: 5px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+
+        .product-col1 .fa {
+            color: #f44336;
+            font-size: 9px;
+        }
+
+    @media (max-width: 1192px) {
+
+        .row1 {
+            width: 300px;
+            flex-direction: row;
+            overflow: scroll;
+        }
+
+        .product-col1 .fa {
+            font-size: 9px;
+        }
+    }
+
+.image {
+    margin: auto;
+    padding-top: 470px;
+    text-align: right;
+    background-image: url(images/test.jpeg);
+    height: 80vh;
+}
+@media (max-width: 1192px) {
+    .image {
+        margin-top: 25px;
+        height: 50vh;
+        padding-top: 550px;
+        background-image: url(images/test2.jpeg);
+        background-size: cover;
+    }
+}
+
+    .page2 {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+        .page2 h1 {
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+        .page2 p {
+            color: black;
+            font-size: 20px;
+            font-weight: 300;
+            line-height: 24px;
+            padding: 20px;
+        }
+
+    @media (max-width: 1192px) {
+        .page2 {
+            padding-top: 50px;
+        }
+    }
+
+    .row2 {
+        margin-top: 5%;
+        display: inline-flex;
+        justify-content: space-between;
+    }
+
+    .product-col2 {
+        background-color: whitesmoke;
+        flex-basis: 20%;
+        border-radius: 10px;
+        margin-bottom: 5%;
+        text-align: left;
+        padding: 50px;
+        cursor: pointer;
+        display: flex;
+        transition: 0.5s;
+    }
+
+        .product-col2:hover {
+            box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
+        }
+
+        .product-col2 img {
+            height: 100px;
+            margin-left: 5px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+
+        .product-col2 .fa {
+            color: #f44336;
+            font-size: 9px;
+        }
+
+    @media (max-width: 1192px) {
+
+        .row2 {
+            width: 300px;
+            flex-direction: row;
+            overflow: scroll;
+        }
+
+        .product-col2 .fa {
+            font-size: 8px;
+        }
+    }
+
+    .footer {
+        width: 100%;
+        text-align: center;
+        padding: 30px 0;
+        background: black;
+    }
+
+        .footer h3 {
+            color: white;
+            margin-bottom: 25px;
+            margin-top: 20px;
+            font-size: 20px;
+        }
+
+        .footer p {
+            color: white;
+            font-size: 16px;
+        }
+
+    .icons .fa {
+        color: #f44336;
+        margin: 0 12px;
+        cursor: pointer;
+        padding: 18px 0;
+    }
