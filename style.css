@@ -186,7 +186,7 @@ a.active, a:hover{
     margin-top: 25px;
     height: 50vh;
     padding-top: 550px;
-    background-image: url(images/image0.png);
+    background-image: url(images/image0.PNG);
     background-size: cover;
 }
 .homepage h1 {
@@ -284,7 +284,7 @@ a.active, a:hover{
         margin-top: 25px;
         height: 30vh;
         padding-top: 250px;
-        background-image: url(images/image1.png);
+        background-image: url(images/image1.PNG);
         background-size: cover;
     }
 }
@@ -363,7 +363,7 @@ a.active, a:hover{
         margin-top: 25px;
         height: 30vh;
         padding-top: 250px;
-        background-image: url(images/image2.png);
+        background-image: url(images/image2.PNG);
         background-size: cover;
     }
 }
@@ -442,7 +442,7 @@ a.active, a:hover{
         margin-top: 25px;
         height: 30vh;
         padding-top: 250px;
-        background-image: url(images/image3.png);
+        background-image: url(images/image3.PGN);
         background-size: cover;
     }
 }
@@ -523,7 +523,7 @@ a.active, a:hover{
         margin-top: 25px;
         height: 30vh;
         padding-top: 250px;
-        background-image: url(images/image4.png);
+        background-image: url(images/image4.PNG);
         background-size: cover;
     }
 }
